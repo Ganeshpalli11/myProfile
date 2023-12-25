@@ -2173,7 +2173,7 @@ color: black;}
 .services_bg,
 .services_content,
 .Web_Design,
-.Web_Development,.circles {
+.Web_Development,.circles,.contact,.connect {
     opacity: 0;
     transform: translateY(40px);
     /* Initial position below */
@@ -2199,7 +2199,7 @@ color: black;}
 .services_bg.visible,
 .services_content.visible,
 .Web_Design.visible,
-.Web_Development.visible,.circles.visible{
+.Web_Development.visible,.circles.visible,.contact.visible,.connect.visible{
     opacity: 1;
     transform: translateY(0);
     /* Move up to final position */
